@@ -1,4 +1,38 @@
 img{
-  height: 100px;
+  height: 150px;
+  width: 150px;
+}
+.graph {
+  padding: 40px;
+}
+
+.graph__icon1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(50px) rotate(-10deg);
+  background-color: white;
+  height: 35px;
   width: 100px;
+  border-radius: 30px;
+  z-index: 1;
+  position: relative;
+}
+
+.graph__icon2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(90px) translateY(-5px) rotate(10deg);
+  height: 35px;
+  width: 100px;
+  border-radius: 30px;
+  border: 1px solid black;
+}
+
+.graph__pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
 }

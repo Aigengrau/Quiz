@@ -1,0 +1,7 @@
+
+.graph--theme-2 img{
+  position: relative;
+  justify-content: center;
+  transform: translateX(-100px);
+  z-index: 1;
+}

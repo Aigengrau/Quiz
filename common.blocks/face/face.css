@@ -1,26 +1,12 @@
-.face{
-  display: block;
-  justify-content: center;
-  align-items: center;
+.face {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }
 
-.face__text{
-  text-align: center;
+
+.face__text {
+  max-width: 450px;
 }
 
-.graph{
-  
-}
-.graph__icon1{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
-  transform: rotate(-15deg);
-}
-.graph__icon2{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transform: rotate(10deg);
-}

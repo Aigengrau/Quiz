@@ -3,16 +3,59 @@
 @import url(common.blocks/graph/graph.css);
 @import url(common.blocks/graph/--theme-2/theme-2.css);
 @import url(common.blocks/quiz/quiz.css);
-*{
-  margin: 0px;
-  padding: 0px;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+@media only screen and (max-width: 1000px) {
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .face__text {
+    text-align: center;
+  }
+
+  .graph--default {
+    display: none;
+  }
+
+  .graph--theme-2 {
+    display: flex;
+  }
+
+  .input {
+    display: block;
+  }
+  .input__label{
+    margin: 8px;
+  }
+  .quiz{
+    height: 600px;
+  }
+  .input input {
+    display: block;
+    margin: 8px;
+    width: 500px;
+  }
+} 
+
+@media only screen and (min-width: 1000px) {
+  .graph--default {
+    display: block;
+  }
+
+  .graph--theme-2 {
+    display: none;
+  }
+}
+
+
+* {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
 }
 
 body {
-  background:#CAFFA0;
+  background: #CAFFA0;
 }
-
-
-
-
