@@ -18,15 +18,152 @@
         <div class="graph graph--default">
           <div class="graph__icon1">Бесплатно</div>
           <div class="graph__icon2">за 30 секунд</div>
-          <div class="graph__pic"></div>
+          <div class="graph__pic" ><img src="src/default.png" alt="" srcset=""></div>
         </div>
         <div class="graph graph--theme-2" style="display: none">
           <div class="graph__icon1">Бесплатно</div>
           <div class="graph__icon2">за 30 секунд</div>
-          <div class="graph__pic"></div>
+          <div class="graph__pic"><img src="src/theme-2.png" alt="" srcset=""></div>
         </div>
       </div>
-      <div class="quiz quiz__block"></div>
+      <div class="quiz quiz__block">
+        <div id="questionnaire">
+          <div id="step-1" class="question step">
+            <h4>Для кого вы ищете учебное заведение?</h4>
+            <p>1/9</p>
+            <input id="for-me" type="radio" name="for-who" />
+            <label for="for-me">Себе</label>
+            <input id="for-mar" type="radio" name="for-who" />
+            <label for="for-mar">Супругу/супруге</label>
+            <input id="for-rel" type="radio" name="for-who" />
+            <label for="for-rel">Родственнику</label>
+            <input id="for-col" type="radio" name="for-who" />
+            <label for="for-col">Коллеге</label>
+            <input id="for-child" type="radio" name="for-who" />
+            <label for="for-child">Ребенку</label>
+            <input id="for-other" type="radio" name="for-who" />
+            <label for="for-other">Другое</label>
+            <button class="next-btn">Далее</button>
+          </div>
+          <div id="step-2" class="question step">
+            <h4>В каком городе планируйте поступать?</h4>
+            <p>2/9</p>
+            <label for="cities">Город</label>
+            <form action="#">
+              <select name="Cities" id="cities">
+                <option value="SP">Санкт-Петербург</option>
+                <option value="MSC">Москва</option>
+                <option value="KA">Казань</option>
+                <option value="Nov">Новосибирск</option>
+                <option value="NN">Нижний Новгород</option>
+                <option value="RND">Ростов На Дону</option>
+                <option value="Sc">Сочи</option>
+                <option value="Other">Другое</option>
+              </select>
+            </form>
+            <button class="prev-btn">Назад</button>
+            <button class="next-btn">Далее</button>
+          </div>
+          <div id="step-3" class="question step">
+            <h4>Какое образование уже есть?</h4>
+            <p>3/9</p>
+            <input id="9" type="radio" name="school" />
+            <label for="9">9 Классов</label>
+            <input id="col" type="radio" name="school" />
+            <label for="col">Колледж/Техникум</label>
+            <input id="11" type="radio" name="school" />
+            <label for="11">11 Классов</label>
+            <input id="sch" type="radio" name="school" />
+            <label for="sch">Училище</label>
+            <input id="high" type="radio" name="school" />
+            <label for="high">Неоконченное высшее</label>
+            <input id="other" type="radio" name="school" />
+            <label for="other">Другое</label>
+            <button class="prev-btn">Назад</button>
+            <button class="next-btn">Далее</button>
+          </div>
+          <div id="step-4" class="question step">
+            <h4>Куда планируете?</h4>
+            <p>4/9</p>
+            <input id="vuz" type="radio" name="apply" />
+            <label for="vuz">Вуз</label>
+            <input id="tech" type="radio" name="apply" />
+            <label for="tech">Колледж/Техникум</label>
+            <input id="uch" type="radio" name="apply" />
+            <label for="uch">Училище</label>
+            <button class="prev-btn">Назад</button>
+            <button class="next-btn">Далее</button>
+          </div>
+          <div id="step-5" class="question step">
+            <h4>Куда планируете?</h4>
+            <p>5/9</p>
+            <input id="ocho" type="radio" name="apply" />
+            <label for="ocho">Очно</label>
+            <input id="zaocho" type="radio" name="apply" />
+            <label for="zaocho">Заочно</label>
+            <input id="dis" type="radio" name="apply" />
+            <label for="dis">Дистанционную</label>
+            <button class="prev-btn">Назад</button>
+            <button class="next-btn">Далее</button>
+          </div>
+          <div id="step-6" class="question step">
+            <h4>Рассматривайте платное обучение?</h4>
+            <p>6/9</p>
+            <input id="No" type="radio" name="apply" />
+            <label for="No">Нет,только бюджет</label>
+            <input id="Yes" type="radio" name="apply" />
+            <label for="Yes">Да,планирую платно</label>
+            <input id="two" type="radio" name="apply" />
+            <label for="two">Возможны оба варианта</label>
+            <button class="prev-btn">Назад</button>
+            <button class="next-btn">Далее</button>
+          </div>
+          <div id="step-7" class="question step">
+            <h4>Какая специальность интересует?</h4>
+            <p>7/9</p>
+            <label for="spec">Специальность</label>
+            <form action="#">
+              <select name="Spec" id="spec">
+                <option value="any">Любая</option>
+                <option value="ec">Экономика</option>
+                <option value="ph">Философия</option>
+                <option value="sc">Социология</option>
+                <option value="IT">Информационные технологии</option>
+                <option value="ju">Юриспруденция</option>
+                <option value="ma">Математика</option>
+                <option value="ja">Журанлистика</option>
+              </select>
+            </form>
+            <button class="prev-btn">Назад</button>
+            <button class="next-btn">Далее</button>
+          </div>
+          <div id="step-8" class="question step">
+            <h4>Как скоро планируете поступать?</h4>
+            <p>8/9</p>
+            <input id="soon" type="radio" name="apply" />
+            <label for="soon">Как можно быстрее</label>
+            <input id="month" type="radio" name="apply" />
+            <label for="month">Месяц</label>
+            <input id="qua" type="radio" name="apply" />
+            <label for="qua">Квартал</label>
+            <input id="hy" type="radio" name="apply" />
+            <label for="hy">Полгода</label>
+            <input id="year" type="radio" name="apply" />
+            <label for="year">Год</label>
+            <button class="prev-btn">Назад</button>
+            <button class="next-btn">Далее</button>
+          </div>
+          <div id="step-9" class="question step">
+            <h4>Ваша подборка готова!Куда нам отправить её?</h4>
+            <p>9/9</p>
+              <input type="text" placeholder="Как вас зовут?" name="name" id="name">
+              <input type="email" placeholder="Номер телефона" name="phone" id="phone">
+              <input type="tel" placeholder="E-mail" name="email" id="email">
+            <button class="final-btn">Получить подборку</button>
+            <p>Нажимая на кнопку,вы даете согласие на обработку своих <a href="">Персональных данных. </a></p>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
   <script src="./common.blocks/quiz/quiz.js"></script>

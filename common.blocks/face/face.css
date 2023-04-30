@@ -1,0 +1,26 @@
+.face{
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.face__text{
+  text-align: center;
+}
+
+.graph{
+  
+}
+.graph__icon1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  transform: rotate(-15deg);
+}
+.graph__icon2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(10deg);
+}
